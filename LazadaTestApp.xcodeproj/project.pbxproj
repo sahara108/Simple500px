@@ -283,12 +283,11 @@
 		AB7246D21FE6381F0071212B /* DetailPhotoView */ = {
 			isa = PBXGroup;
 			children = (
+				AB7246EF1FE6AFA40071212B /* Render */,
 				AB7246D31FE638370071212B /* Cells */,
 				AB7246B61FE61EC00071212B /* DetailPhotoViewController.h */,
 				AB7246B71FE61EC00071212B /* DetailPhotoViewController.m */,
 				AB7246BE1FE6283D0071212B /* DetailPhotoViewController.xib */,
-				AB7246DC1FE646370071212B /* DetailPhotoViewRender.h */,
-				AB7246DD1FE646370071212B /* DetailPhotoViewRender.m */,
 			);
 			path = DetailPhotoView;
 			sourceTree = "<group>";
@@ -327,6 +326,15 @@
 				AB7246ED1FE69FF40071212B /* MBProgressHUD.h */,
 			);
 			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		AB7246EF1FE6AFA40071212B /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				AB7246DC1FE646370071212B /* DetailPhotoViewRender.h */,
+				AB7246DD1FE646370071212B /* DetailPhotoViewRender.m */,
+			);
+			path = Render;
 			sourceTree = "<group>";
 		};
 		ABB2D3741FE02FF0004C1088 = {

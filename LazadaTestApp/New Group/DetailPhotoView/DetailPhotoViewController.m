@@ -17,7 +17,7 @@
 #import "DetailPhotoViewRender.h"
 #import "MBProgressHUD.h"
 
-@interface DetailPhotoViewController ()
+@interface DetailPhotoViewController ()<DetailPhotoViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 @property (nonatomic, assign) NSInteger currentPage;
@@ -49,7 +49,7 @@
     self.title = [_category displayName];
     
     self.render = [[DetailPhotoViewRender alloc] initWithCollectionView:self.collectionView];
-    
+    self.render.delegate = self;
     __weak DetailPhotoViewController *weakSelf = self;
     self.render.refresh = ^{
         [weakSelf refreshLoadPhoto];
@@ -80,7 +80,7 @@
     [self.coreSerVervice.apiService loadPhotosBy:_category.categoryId page:_currentPage completion:^(LTPagePhotos *page, NSError *error) {
         dispatch_async(dispatch_get_main_queue(), ^{
             [MBProgressHUD hideHUDForView:self.view animated:true];
-        });
+        }); 
         
         if (error == nil) {
             self.totalPage = page.totalPage;
@@ -142,5 +142,10 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+-(void)render:(DetailPhotoViewRender *)render didSelect:(LTCategoryPhotosViewModel *)object
+{
+    
+}
 
 @end

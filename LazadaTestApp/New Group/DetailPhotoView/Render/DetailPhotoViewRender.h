@@ -9,10 +9,19 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+@class DetailPhotoViewRender;
+@class LTCategoryPhotosViewModel;
+@protocol DetailPhotoViewDelegate
+
+-(void)render:(DetailPhotoViewRender*)render didSelect:(LTCategoryPhotosViewModel*)object;
+
+@end
+
 @interface DetailPhotoViewRender : NSObject<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) NSArray *dataSource;
+@property (nonatomic, weak) id<DetailPhotoViewDelegate> delegate;
 
 -(instancetype)initWithCollectionView:(UICollectionView*)collectionView;
 

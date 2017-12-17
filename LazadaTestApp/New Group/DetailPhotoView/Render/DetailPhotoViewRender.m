@@ -54,6 +54,7 @@
     [self.collectionView reloadData];
 }
 
+#pragma mark - Datasource
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
     return _dataSource.count;
@@ -95,6 +96,13 @@
 -(CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section
 {
     return 5;
+}
+
+#pragma mark Delegate
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    LTCategoryPhotosViewModel *vm = self.dataSource[indexPath.row];
+    [self.delegate render:self didSelect:vm];
 }
 
 @end
