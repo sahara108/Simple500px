@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB7246881FE40F9F0071212B /* LTCoreService.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246871FE40F9F0071212B /* LTCoreService.m */; };
+		AB7246901FE40FD70071212B /* LT500pxAPIService.m in Sources */ = {isa = PBXBuildFile; fileRef = AB72468F1FE40FD70071212B /* LT500pxAPIService.m */; };
+		AB7246941FE410A70071212B /* LTDBService.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246931FE410A70071212B /* LTDBService.m */; };
+		AB7246981FE4113B0071212B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246971FE4113B0071212B /* BaseViewController.m */; };
+		AB72469C1FE4166B0071212B /* LT500pxConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = AB72469B1FE4166B0071212B /* LT500pxConstants.m */; };
+		AB7246A41FE5247C0071212B /* LTCorService+Global.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246A31FE5247C0071212B /* LTCorService+Global.m */; };
+		AB7246A71FE52BAE0071212B /* LTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246A61FE52BAE0071212B /* LTCategory.m */; };
+		AB7246AA1FE5542B0071212B /* LT500pxRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246A91FE5542B0071212B /* LT500pxRequestBuilder.m */; };
+		AB7246AD1FE564640071212B /* LTPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246AC1FE564640071212B /* LTPhoto.m */; };
+		AB7246B41FE60F880071212B /* LT500pxPhotoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246B31FE60F880071212B /* LT500pxPhotoRequest.m */; };
+		AB7246B81FE61EC00071212B /* DetailPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246B71FE61EC00071212B /* DetailPhotoViewController.m */; };
+		AB7246BD1FE626AE0071212B /* LTCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246BC1FE626AE0071212B /* LTCategoryViewModel.m */; };
+		AB7246BF1FE6283D0071212B /* DetailPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB7246BE1FE6283D0071212B /* DetailPhotoViewController.xib */; };
+		AB7246C61FE62FB90071212B /* LT500pxPhotoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246C51FE62FB90071212B /* LT500pxPhotoResponse.m */; };
+		AB7246C91FE630800071212B /* LTPagePhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246C81FE630800071212B /* LTPagePhotos.m */; };
+		AB7246CD1FE6342B0071212B /* LTPagePhotos+500px.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246CC1FE6342B0071212B /* LTPagePhotos+500px.m */; };
+		AB7246D01FE637B00071212B /* LTCategoryPhotosViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246CF1FE637B00071212B /* LTCategoryPhotosViewModel.m */; };
+		AB7246D71FE6385B0071212B /* DetailPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246D51FE6385B0071212B /* DetailPhotoCollectionViewCell.m */; };
+		AB7246D81FE6385B0071212B /* DetailPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB7246D61FE6385B0071212B /* DetailPhotoCollectionViewCell.xib */; };
+		AB7246DB1FE638EB0071212B /* LTDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246DA1FE638EB0071212B /* LTDateHelper.m */; };
+		AB7246DE1FE646370071212B /* DetailPhotoViewRender.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246DD1FE646370071212B /* DetailPhotoViewRender.m */; };
+		AB7246E21FE64CA10071212B /* LTFileService.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246E11FE64CA10071212B /* LTFileService.m */; };
+		AB7246E51FE656140071212B /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246E31FE656140071212B /* NSString+URLEncoding.m */; };
+		AB7246EE1FE69FF40071212B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7246EC1FE69FF40071212B /* MBProgressHUD.m */; };
+		ABB2D3821FE02FF0004C1088 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB2D3811FE02FF0004C1088 /* AppDelegate.m */; };
+		ABB2D3851FE02FF0004C1088 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB2D3841FE02FF0004C1088 /* ViewController.m */; };
+		ABB2D3881FE02FF1004C1088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB2D3861FE02FF1004C1088 /* Main.storyboard */; };
+		ABB2D38A1FE02FF1004C1088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB2D3891FE02FF1004C1088 /* Assets.xcassets */; };
+		ABB2D38D1FE02FF1004C1088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB2D38B1FE02FF1004C1088 /* LaunchScreen.storyboard */; };
+		ABB2D3901FE02FF1004C1088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB2D38F1FE02FF1004C1088 /* main.m */; };
+		ABB2D39A1FE02FF1004C1088 /* LazadaTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB2D3991FE02FF1004C1088 /* LazadaTestAppTests.m */; };
+		ABB2D3A51FE02FF1004C1088 /* LazadaTestAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB2D3A41FE02FF1004C1088 /* LazadaTestAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABB2D3961FE02FF1004C1088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB2D3751FE02FF0004C1088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB2D37C1FE02FF0004C1088;
+			remoteInfo = LazadaTestApp;
+		};
+		ABB2D3A11FE02FF1004C1088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB2D3751FE02FF0004C1088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB2D37C1FE02FF0004C1088;
+			remoteInfo = LazadaTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB7246861FE40F9F0071212B /* LTCoreService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTCoreService.h; sourceTree = "<group>"; };
+		AB7246871FE40F9F0071212B /* LTCoreService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTCoreService.m; sourceTree = "<group>"; };
+		AB72468E1FE40FD70071212B /* LT500pxAPIService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LT500pxAPIService.h; sourceTree = "<group>"; };
+		AB72468F1FE40FD70071212B /* LT500pxAPIService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LT500pxAPIService.m; sourceTree = "<group>"; };
+		AB7246921FE410A70071212B /* LTDBService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTDBService.h; sourceTree = "<group>"; };
+		AB7246931FE410A70071212B /* LTDBService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTDBService.m; sourceTree = "<group>"; };
+		AB7246961FE4113B0071212B /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		AB7246971FE4113B0071212B /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		AB72469A1FE4166B0071212B /* LT500pxConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LT500pxConstants.h; sourceTree = "<group>"; };
+		AB72469B1FE4166B0071212B /* LT500pxConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LT500pxConstants.m; sourceTree = "<group>"; };
+		AB72469D1FE424AF0071212B /* LTServiceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTServiceProtocol.h; sourceTree = "<group>"; };
+		AB7246A21FE5247C0071212B /* LTCorService+Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LTCorService+Global.h"; sourceTree = "<group>"; };
+		AB7246A31FE5247C0071212B /* LTCorService+Global.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LTCorService+Global.m"; sourceTree = "<group>"; };
+		AB7246A51FE52BAE0071212B /* LTCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTCategory.h; sourceTree = "<group>"; };
+		AB7246A61FE52BAE0071212B /* LTCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTCategory.m; sourceTree = "<group>"; };
+		AB7246A81FE5542B0071212B /* LT500pxRequestBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LT500pxRequestBuilder.h; sourceTree = "<group>"; };
+		AB7246A91FE5542B0071212B /* LT500pxRequestBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LT500pxRequestBuilder.m; sourceTree = "<group>"; };
+		AB7246AB1FE564640071212B /* LTPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTPhoto.h; sourceTree = "<group>"; };
+		AB7246AC1FE564640071212B /* LTPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTPhoto.m; sourceTree = "<group>"; };
+		AB7246B21FE60F880071212B /* LT500pxPhotoRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LT500pxPhotoRequest.h; sourceTree = "<group>"; };
+		AB7246B31FE60F880071212B /* LT500pxPhotoRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LT500pxPhotoRequest.m; sourceTree = "<group>"; };
+		AB7246B51FE615A20071212B /* LT500pxRequestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LT500pxRequestProtocol.h; sourceTree = "<group>"; };
+		AB7246B61FE61EC00071212B /* DetailPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailPhotoViewController.h; sourceTree = "<group>"; };
+		AB7246B71FE61EC00071212B /* DetailPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailPhotoViewController.m; sourceTree = "<group>"; };
+		AB7246BB1FE626AE0071212B /* LTCategoryViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTCategoryViewModel.h; sourceTree = "<group>"; };
+		AB7246BC1FE626AE0071212B /* LTCategoryViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTCategoryViewModel.m; sourceTree = "<group>"; };
+		AB7246BE1FE6283D0071212B /* DetailPhotoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailPhotoViewController.xib; sourceTree = "<group>"; };
+		AB7246C41FE62FB90071212B /* LT500pxPhotoResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LT500pxPhotoResponse.h; sourceTree = "<group>"; };
+		AB7246C51FE62FB90071212B /* LT500pxPhotoResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LT500pxPhotoResponse.m; sourceTree = "<group>"; };
+		AB7246C71FE630800071212B /* LTPagePhotos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTPagePhotos.h; sourceTree = "<group>"; };
+		AB7246C81FE630800071212B /* LTPagePhotos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTPagePhotos.m; sourceTree = "<group>"; };
+		AB7246CB1FE6342B0071212B /* LTPagePhotos+500px.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LTPagePhotos+500px.h"; sourceTree = "<group>"; };
+		AB7246CC1FE6342B0071212B /* LTPagePhotos+500px.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LTPagePhotos+500px.m"; sourceTree = "<group>"; };
+		AB7246CE1FE637B00071212B /* LTCategoryPhotosViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTCategoryPhotosViewModel.h; sourceTree = "<group>"; };
+		AB7246CF1FE637B00071212B /* LTCategoryPhotosViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTCategoryPhotosViewModel.m; sourceTree = "<group>"; };
+		AB7246D41FE6385B0071212B /* DetailPhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		AB7246D51FE6385B0071212B /* DetailPhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		AB7246D61FE6385B0071212B /* DetailPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		AB7246D91FE638EB0071212B /* LTDateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTDateHelper.h; sourceTree = "<group>"; };
+		AB7246DA1FE638EB0071212B /* LTDateHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTDateHelper.m; sourceTree = "<group>"; };
+		AB7246DC1FE646370071212B /* DetailPhotoViewRender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailPhotoViewRender.h; sourceTree = "<group>"; };
+		AB7246DD1FE646370071212B /* DetailPhotoViewRender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailPhotoViewRender.m; sourceTree = "<group>"; };
+		AB7246E01FE64CA10071212B /* LTFileService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTFileService.h; sourceTree = "<group>"; };
+		AB7246E11FE64CA10071212B /* LTFileService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTFileService.m; sourceTree = "<group>"; };
+		AB7246E31FE656140071212B /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		AB7246E41FE656140071212B /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		AB7246EC1FE69FF40071212B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		AB7246ED1FE69FF40071212B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		ABB2D37D1FE02FF0004C1088 /* LazadaTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazadaTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB2D3801FE02FF0004C1088 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABB2D3811FE02FF0004C1088 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABB2D3831FE02FF0004C1088 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABB2D3841FE02FF0004C1088 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABB2D3871FE02FF1004C1088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABB2D3891FE02FF1004C1088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABB2D38C1FE02FF1004C1088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABB2D38E1FE02FF1004C1088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB2D38F1FE02FF1004C1088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABB2D3951FE02FF1004C1088 /* LazadaTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazadaTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB2D3991FE02FF1004C1088 /* LazadaTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LazadaTestAppTests.m; sourceTree = "<group>"; };
+		ABB2D39B1FE02FF1004C1088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB2D3A01FE02FF1004C1088 /* LazadaTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazadaTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB2D3A41FE02FF1004C1088 /* LazadaTestAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LazadaTestAppUITests.m; sourceTree = "<group>"; };
+		ABB2D3A61FE02FF1004C1088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB2D37A1FE02FF0004C1088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB2D3921FE02FF1004C1088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB2D39D1FE02FF1004C1088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB7246851FE40F810071212B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AB7246DF1FE64C830071212B /* File */,
+				AB7246911FE410970071212B /* DB */,
+				AB72468D1FE40FC10071212B /* 500px */,
+				AB7246861FE40F9F0071212B /* LTCoreService.h */,
+				AB7246871FE40F9F0071212B /* LTCoreService.m */,
+				AB72469D1FE424AF0071212B /* LTServiceProtocol.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AB72468D1FE40FC10071212B /* 500px */ = {
+			isa = PBXGroup;
+			children = (
+				AB7246CA1FE634170071212B /* Extension */,
+				AB7246C31FE62FA90071212B /* Res */,
+				AB7246B11FE60F660071212B /* Req */,
+				AB72468E1FE40FD70071212B /* LT500pxAPIService.h */,
+				AB72468F1FE40FD70071212B /* LT500pxAPIService.m */,
+				AB72469A1FE4166B0071212B /* LT500pxConstants.h */,
+				AB72469B1FE4166B0071212B /* LT500pxConstants.m */,
+				AB7246A81FE5542B0071212B /* LT500pxRequestBuilder.h */,
+				AB7246A91FE5542B0071212B /* LT500pxRequestBuilder.m */,
+			);
+			path = 500px;
+			sourceTree = "<group>";
+		};
+		AB7246911FE410970071212B /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				AB7246921FE410A70071212B /* LTDBService.h */,
+				AB7246931FE410A70071212B /* LTDBService.m */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		AB7246951FE4112F0071212B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AB7246961FE4113B0071212B /* BaseViewController.h */,
+				AB7246971FE4113B0071212B /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		AB7246991FE4164F0071212B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		AB7246A01FE51EA60071212B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB7246A51FE52BAE0071212B /* LTCategory.h */,
+				AB7246A61FE52BAE0071212B /* LTCategory.m */,
+				AB7246AB1FE564640071212B /* LTPhoto.h */,
+				AB7246AC1FE564640071212B /* LTPhoto.m */,
+				AB7246C71FE630800071212B /* LTPagePhotos.h */,
+				AB7246C81FE630800071212B /* LTPagePhotos.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB7246A11FE5245D0071212B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AB7246E41FE656140071212B /* NSString+URLEncoding.h */,
+				AB7246E31FE656140071212B /* NSString+URLEncoding.m */,
+				AB7246A21FE5247C0071212B /* LTCorService+Global.h */,
+				AB7246A31FE5247C0071212B /* LTCorService+Global.m */,
+				AB7246D91FE638EB0071212B /* LTDateHelper.h */,
+				AB7246DA1FE638EB0071212B /* LTDateHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AB7246B11FE60F660071212B /* Req */ = {
+			isa = PBXGroup;
+			children = (
+				AB7246B21FE60F880071212B /* LT500pxPhotoRequest.h */,
+				AB7246B31FE60F880071212B /* LT500pxPhotoRequest.m */,
+				AB7246B51FE615A20071212B /* LT500pxRequestProtocol.h */,
+			);
+			path = Req;
+			sourceTree = "<group>";
+		};
+		AB7246B91FE61EC50071212B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB7246D21FE6381F0071212B /* DetailPhotoView */,
+				ABB2D3831FE02FF0004C1088 /* ViewController.h */,
+				ABB2D3841FE02FF0004C1088 /* ViewController.m */,
+			);
+			name = ViewController;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		AB7246BA1FE626980071212B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB7246BB1FE626AE0071212B /* LTCategoryViewModel.h */,
+				AB7246BC1FE626AE0071212B /* LTCategoryViewModel.m */,
+				AB7246CE1FE637B00071212B /* LTCategoryPhotosViewModel.h */,
+				AB7246CF1FE637B00071212B /* LTCategoryPhotosViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AB7246C31FE62FA90071212B /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				AB7246C41FE62FB90071212B /* LT500pxPhotoResponse.h */,
+				AB7246C51FE62FB90071212B /* LT500pxPhotoResponse.m */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		AB7246CA1FE634170071212B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AB7246CB1FE6342B0071212B /* LTPagePhotos+500px.h */,
+				AB7246CC1FE6342B0071212B /* LTPagePhotos+500px.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AB7246D21FE6381F0071212B /* DetailPhotoView */ = {
+			isa = PBXGroup;
+			children = (
+				AB7246D31FE638370071212B /* Cells */,
+				AB7246B61FE61EC00071212B /* DetailPhotoViewController.h */,
+				AB7246B71FE61EC00071212B /* DetailPhotoViewController.m */,
+				AB7246BE1FE6283D0071212B /* DetailPhotoViewController.xib */,
+				AB7246DC1FE646370071212B /* DetailPhotoViewRender.h */,
+				AB7246DD1FE646370071212B /* DetailPhotoViewRender.m */,
+			);
+			path = DetailPhotoView;
+			sourceTree = "<group>";
+		};
+		AB7246D31FE638370071212B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AB7246D41FE6385B0071212B /* DetailPhotoCollectionViewCell.h */,
+				AB7246D51FE6385B0071212B /* DetailPhotoCollectionViewCell.m */,
+				AB7246D61FE6385B0071212B /* DetailPhotoCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AB7246DF1FE64C830071212B /* File */ = {
+			isa = PBXGroup;
+			children = (
+				AB7246E01FE64CA10071212B /* LTFileService.h */,
+				AB7246E11FE64CA10071212B /* LTFileService.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		AB7246EA1FE69FD30071212B /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				AB7246EB1FE69FF40071212B /* MBProgressHUD */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		AB7246EB1FE69FF40071212B /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				AB7246EC1FE69FF40071212B /* MBProgressHUD.m */,
+				AB7246ED1FE69FF40071212B /* MBProgressHUD.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		ABB2D3741FE02FF0004C1088 = {
+			isa = PBXGroup;
+			children = (
+				ABB2D37F1FE02FF0004C1088 /* LazadaTestApp */,
+				ABB2D3981FE02FF1004C1088 /* LazadaTestAppTests */,
+				ABB2D3A31FE02FF1004C1088 /* LazadaTestAppUITests */,
+				ABB2D37E1FE02FF0004C1088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB2D37E1FE02FF0004C1088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB2D37D1FE02FF0004C1088 /* LazadaTestApp.app */,
+				ABB2D3951FE02FF1004C1088 /* LazadaTestAppTests.xctest */,
+				ABB2D3A01FE02FF1004C1088 /* LazadaTestAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB2D37F1FE02FF0004C1088 /* LazadaTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				AB7246EA1FE69FD30071212B /* ThirdParty */,
+				AB7246951FE4112F0071212B /* Base */,
+				AB7246A11FE5245D0071212B /* Helper */,
+				AB7246A01FE51EA60071212B /* Model */,
+				AB7246991FE4164F0071212B /* Constants */,
+				AB7246851FE40F810071212B /* Services */,
+				ABB2D3801FE02FF0004C1088 /* AppDelegate.h */,
+				ABB2D3811FE02FF0004C1088 /* AppDelegate.m */,
+				AB7246BA1FE626980071212B /* ViewModel */,
+				AB7246B91FE61EC50071212B /* ViewController */,
+				ABB2D3861FE02FF1004C1088 /* Main.storyboard */,
+				ABB2D3891FE02FF1004C1088 /* Assets.xcassets */,
+				ABB2D38B1FE02FF1004C1088 /* LaunchScreen.storyboard */,
+				ABB2D38E1FE02FF1004C1088 /* Info.plist */,
+				ABB2D38F1FE02FF1004C1088 /* main.m */,
+			);
+			path = LazadaTestApp;
+			sourceTree = "<group>";
+		};
+		ABB2D3981FE02FF1004C1088 /* LazadaTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB2D3991FE02FF1004C1088 /* LazadaTestAppTests.m */,
+				ABB2D39B1FE02FF1004C1088 /* Info.plist */,
+			);
+			path = LazadaTestAppTests;
+			sourceTree = "<group>";
+		};
+		ABB2D3A31FE02FF1004C1088 /* LazadaTestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB2D3A41FE02FF1004C1088 /* LazadaTestAppUITests.m */,
+				ABB2D3A61FE02FF1004C1088 /* Info.plist */,
+			);
+			path = LazadaTestAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB2D37C1FE02FF0004C1088 /* LazadaTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB2D3A91FE02FF1004C1088 /* Build configuration list for PBXNativeTarget "LazadaTestApp" */;
+			buildPhases = (
+				ABB2D3791FE02FF0004C1088 /* Sources */,
+				ABB2D37A1FE02FF0004C1088 /* Frameworks */,
+				ABB2D37B1FE02FF0004C1088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LazadaTestApp;
+			productName = LazadaTestApp;
+			productReference = ABB2D37D1FE02FF0004C1088 /* LazadaTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABB2D3941FE02FF1004C1088 /* LazadaTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB2D3AC1FE02FF1004C1088 /* Build configuration list for PBXNativeTarget "LazadaTestAppTests" */;
+			buildPhases = (
+				ABB2D3911FE02FF1004C1088 /* Sources */,
+				ABB2D3921FE02FF1004C1088 /* Frameworks */,
+				ABB2D3931FE02FF1004C1088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB2D3971FE02FF1004C1088 /* PBXTargetDependency */,
+			);
+			name = LazadaTestAppTests;
+			productName = LazadaTestAppTests;
+			productReference = ABB2D3951FE02FF1004C1088 /* LazadaTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABB2D39F1FE02FF1004C1088 /* LazadaTestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB2D3AF1FE02FF1004C1088 /* Build configuration list for PBXNativeTarget "LazadaTestAppUITests" */;
+			buildPhases = (
+				ABB2D39C1FE02FF1004C1088 /* Sources */,
+				ABB2D39D1FE02FF1004C1088 /* Frameworks */,
+				ABB2D39E1FE02FF1004C1088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB2D3A21FE02FF1004C1088 /* PBXTargetDependency */,
+			);
+			name = LazadaTestAppUITests;
+			productName = LazadaTestAppUITests;
+			productReference = ABB2D3A01FE02FF1004C1088 /* LazadaTestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB2D3751FE02FF0004C1088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Nguyen Tuan";
+				TargetAttributes = {
+					ABB2D37C1FE02FF0004C1088 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ABB2D3941FE02FF1004C1088 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ABB2D37C1FE02FF0004C1088;
+					};
+					ABB2D39F1FE02FF1004C1088 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ABB2D37C1FE02FF0004C1088;
+					};
+				};
+			};
+			buildConfigurationList = ABB2D3781FE02FF0004C1088 /* Build configuration list for PBXProject "LazadaTestApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABB2D3741FE02FF0004C1088;
+			productRefGroup = ABB2D37E1FE02FF0004C1088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB2D37C1FE02FF0004C1088 /* LazadaTestApp */,
+				ABB2D3941FE02FF1004C1088 /* LazadaTestAppTests */,
+				ABB2D39F1FE02FF1004C1088 /* LazadaTestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB2D37B1FE02FF0004C1088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB2D38D1FE02FF1004C1088 /* LaunchScreen.storyboard in Resources */,
+				AB7246D81FE6385B0071212B /* DetailPhotoCollectionViewCell.xib in Resources */,
+				ABB2D38A1FE02FF1004C1088 /* Assets.xcassets in Resources */,
+				AB7246BF1FE6283D0071212B /* DetailPhotoViewController.xib in Resources */,
+				ABB2D3881FE02FF1004C1088 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB2D3931FE02FF1004C1088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB2D39E1FE02FF1004C1088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB2D3791FE02FF0004C1088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7246901FE40FD70071212B /* LT500pxAPIService.m in Sources */,
+				AB7246CD1FE6342B0071212B /* LTPagePhotos+500px.m in Sources */,
+				AB7246A71FE52BAE0071212B /* LTCategory.m in Sources */,
+				AB7246981FE4113B0071212B /* BaseViewController.m in Sources */,
+				AB7246881FE40F9F0071212B /* LTCoreService.m in Sources */,
+				AB7246A41FE5247C0071212B /* LTCorService+Global.m in Sources */,
+				AB7246E51FE656140071212B /* NSString+URLEncoding.m in Sources */,
+				AB7246D71FE6385B0071212B /* DetailPhotoCollectionViewCell.m in Sources */,
+				AB7246B41FE60F880071212B /* LT500pxPhotoRequest.m in Sources */,
+				ABB2D3851FE02FF0004C1088 /* ViewController.m in Sources */,
+				AB7246BD1FE626AE0071212B /* LTCategoryViewModel.m in Sources */,
+				AB7246DE1FE646370071212B /* DetailPhotoViewRender.m in Sources */,
+				AB7246AD1FE564640071212B /* LTPhoto.m in Sources */,
+				AB7246C91FE630800071212B /* LTPagePhotos.m in Sources */,
+				AB7246B81FE61EC00071212B /* DetailPhotoViewController.m in Sources */,
+				AB7246D01FE637B00071212B /* LTCategoryPhotosViewModel.m in Sources */,
+				ABB2D3901FE02FF1004C1088 /* main.m in Sources */,
+				AB7246EE1FE69FF40071212B /* MBProgressHUD.m in Sources */,
+				AB7246AA1FE5542B0071212B /* LT500pxRequestBuilder.m in Sources */,
+				AB7246C61FE62FB90071212B /* LT500pxPhotoResponse.m in Sources */,
+				AB72469C1FE4166B0071212B /* LT500pxConstants.m in Sources */,
+				AB7246E21FE64CA10071212B /* LTFileService.m in Sources */,
+				ABB2D3821FE02FF0004C1088 /* AppDelegate.m in Sources */,
+				AB7246941FE410A70071212B /* LTDBService.m in Sources */,
+				AB7246DB1FE638EB0071212B /* LTDateHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB2D3911FE02FF1004C1088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB2D39A1FE02FF1004C1088 /* LazadaTestAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB2D39C1FE02FF1004C1088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB2D3A51FE02FF1004C1088 /* LazadaTestAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABB2D3971FE02FF1004C1088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB2D37C1FE02FF0004C1088 /* LazadaTestApp */;
+			targetProxy = ABB2D3961FE02FF1004C1088 /* PBXContainerItemProxy */;
+		};
+		ABB2D3A21FE02FF1004C1088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB2D37C1FE02FF0004C1088 /* LazadaTestApp */;
+			targetProxy = ABB2D3A11FE02FF1004C1088 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABB2D3861FE02FF1004C1088 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB2D3871FE02FF1004C1088 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABB2D38B1FE02FF1004C1088 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB2D38C1FE02FF1004C1088 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABB2D3A71FE02FF1004C1088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABB2D3A81FE02FF1004C1088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABB2D3AA1FE02FF1004C1088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LazadaTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cacom.info.LazadaTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABB2D3AB1FE02FF1004C1088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LazadaTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cacom.info.LazadaTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABB2D3AD1FE02FF1004C1088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LazadaTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cacom.info.LazadaTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LazadaTestApp.app/LazadaTestApp";
+			};
+			name = Debug;
+		};
+		ABB2D3AE1FE02FF1004C1088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LazadaTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cacom.info.LazadaTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LazadaTestApp.app/LazadaTestApp";
+			};
+			name = Release;
+		};
+		ABB2D3B01FE02FF1004C1088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LazadaTestAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cacom.info.LazadaTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LazadaTestApp;
+			};
+			name = Debug;
+		};
+		ABB2D3B11FE02FF1004C1088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LazadaTestAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cacom.info.LazadaTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LazadaTestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB2D3781FE02FF0004C1088 /* Build configuration list for PBXProject "LazadaTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB2D3A71FE02FF1004C1088 /* Debug */,
+				ABB2D3A81FE02FF1004C1088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB2D3A91FE02FF1004C1088 /* Build configuration list for PBXNativeTarget "LazadaTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB2D3AA1FE02FF1004C1088 /* Debug */,
+				ABB2D3AB1FE02FF1004C1088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB2D3AC1FE02FF1004C1088 /* Build configuration list for PBXNativeTarget "LazadaTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB2D3AD1FE02FF1004C1088 /* Debug */,
+				ABB2D3AE1FE02FF1004C1088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB2D3AF1FE02FF1004C1088 /* Build configuration list for PBXNativeTarget "LazadaTestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB2D3B01FE02FF1004C1088 /* Debug */,
+				ABB2D3B11FE02FF1004C1088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB2D3751FE02FF0004C1088 /* Project object */;
+}
