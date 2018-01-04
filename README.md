@@ -1,4 +1,4 @@
-# Lazada500px
+# Demo500px
 Wellcome
 
-Please take a look at [Overview structure](https://github.com/sahara108/Lazada500px/wiki/Overview-structure)
+Please take a look at [Overview structure](https://github.com/sahara108/Simple500px/wiki/Overview-structure)
